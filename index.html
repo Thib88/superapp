@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo-uperApp">
+                    <img src="images/Logo.png" alt="Logo">
+                </div>
+                <input type="checkbox" id="icone-burger">
+                <label for="icone-burger">
+                <div class="traits-burger">
+                    <div class="trait-burger"></div>
+                    <div class="trait-burger"></div>
+                    <div class="trait-burger"></div>
+                </div>
+                </label>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">A propos</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#equipe">L'équipe</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="banner">
+                <div class="container">
+                    <h1>SUPER APP</h1>
+                    <p>L'application trop super !</p>
+                    <div class="trait"></div>
+                    <div class="buttons">
+                        <button type="button"><img src="images/thumbs-up.png" alt="thumbs-up">Like it</button>
+                        <button type="button"><img src="images/heart-shape-silhouette.png" alt="heart-shape-silhouette">Love it</button>
+                        <button type="button"><img src="images/shopping-cart-black-shape.png" alt="shopping-cart-black-shape">Buy it</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div id="services">
+                <h2>ELLE FAIT DES TRUCS SUPERS !</h2>
+                <div class="listeServices">
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/fork-and-knife-silhouette.png" alt="table">
+                        </div>
+                        <h3>Mettre la table</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, ad necessitatibus libero officiis.</p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/bed.png" alt="bed">
+                        </div>
+                        <h3>Faire le lit</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta hic illum amet eaque ratione eum illo. </p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/fire-symbol.png" alt="fire">
+                        </div>
+                        <h3>Allumer le feu</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis repudiandae cumque beatae. </p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/plant-leaf-with-white-details.png" alt="feuille">
+                        </div>
+                        <h3>Ramasser les feuilles</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa, fuga! Saepe amet eveniet, a, voluptate. </p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/umbrella-black-silhouette.png" alt="parapluie">
+                        </div>
+                        <h3>Protéger de la pluie</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nostrum sapiente recusandae quae. </p>
+                    </div>
+                    <div class="item">
+                        <div class="image">
+                            <img src="images/dollar-symbol.png" alt="dollar">
+                        </div>
+                        <h3>Vider votre compte</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente nostrum nihil illo possimus impedit.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="equipe">
+                <div class="bannerEquipe">
+                    <h1>La super équipe à l'origine de SuperApp</h1>
+                </div>
+                <div class="listeEquipe">
+                    <div class="itemEquipe">
+                        <img src="images/avaone.png" alt="avaone">
+                        <h3>Tex Talign</h3>
+                        <button type="button"><img src="images/envelope.png" alt="envelope">Lui écrire</button>
+                    </div>
+                    <div class="itemEquipe">
+                        <img src="images/avatwo.png" alt="avatwo">
+                        <h3>Marge Inn</h3>
+                        <button type="button"><img src="images/envelope.png" alt="envelope">Lui écrire</button>
+                    </div>
+                    <div class="itemEquipe">
+                        <img src="images/avathree.png" alt="avathree">
+                        <h3>Isaac Newton</h3>
+                        <button type="button"><img src="images/envelope.png" alt="envelope">Lui écrire</button>
+                    </div>
+                    <div class="itemEquipe">
+                        <img src="images/avafour.png" alt="avafour">
+                        <h3>Ash Tehemel</h3>
+                        <button type="button"><img src="images/envelope.png" alt="envelope">Lui écrire</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="contact">
+            <h2>ENVOYER-NOUS UN MESSAGE</h2>
+            <form action="" method="GET" class="contact-form">
+                <div class="first-row"> 
+                    <div class="form-row">
+                        <label for="name">Votre nom</label>
+                        <input id="name" name="name" type="text"/>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Votre e-mail</label>
+                        <input id="email" name="email" type="email" >
+                    </div>
+                </div>
+                <div class="second-row">
+                    <label for="message">Votre message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <div class="third-row">
+                    <button><img src="images/paper-plane.png" alt="paper-plane">Envoyer</button>
+                </div>
+            </form>
+        </footer>
+    </div>
+</body>
+</html>
